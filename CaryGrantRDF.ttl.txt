@@ -1,0 +1,1184 @@
+@prefix :       <http://example.com/> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix vcard:  <http://www.w3.org/2006/vcard/ns#> .
+@prefix wd: <http://www.wikidata.org/entity/>
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+wd:Q95076  rdf:type  schema:Person .
+
+wd:Q937589  rdf:type  schema:Person .
+
+wd:Q7174193  rdf:type  schema:Person .
+
+wd:Q3017582  rdf:type  schema:Person .
+
+wd:Q545846  rdf:type  schema:Person .
+
+:34     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q265358 , wd:Q1371212;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.4"^^xsd:decimal ];
+        schema:datePublished      "1938"^^xsd:gYear;
+        schema:director           wd:Q1971705;
+        schema:duration           "PT1H20M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Topper Takes a Trip"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q267836  rdf:type  schema:Person .
+
+wd:Q255815  rdf:type  schema:Person .
+
+:64     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q1052329 , wd:Q43247;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.8"^^xsd:decimal ];
+        schema:datePublished      "1958"^^xsd:gYear;
+        schema:director           wd:Q48765;
+        schema:duration           "PT1H40M"^^xsd:duration;
+        schema:genre              wd:Q1054574;
+        schema:name               "Indiscreet"@en;
+        schema:productionCompany  wd:Q126399 .
+
+wd:Q531461  rdf:type  schema:Person .
+
+:1      rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q255815 , wd:Q93957;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.3"^^xsd:decimal ];
+        schema:datePublished      "1932"^^xsd:gYear;
+        schema:director           wd:Q1596657;
+        schema:duration           "PT1H18M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "Devil and the Deep"@en;
+        schema:productionCompany  wd:Q159846 .
+
+wd:Q2484376  rdf:type  schema:DefinedTerm .
+
+:22     rdf:type                  schema:Movie;
+        schema:actor              wd:Q618616 , wd:Q128944 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.2"^^xsd:decimal ];
+        schema:datePublished      "1936"^^xsd:gYear;
+        schema:director           wd:Q374455;
+        schema:duration           "PT1H21M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Wedding Present"@en;
+        schema:productionCompany  wd:Q186941 .
+
+wd:Q4612  rdf:type  schema:Person .
+
+:52     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q442549 , wd:Q457229;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.3"^^xsd:decimal ];
+        schema:datePublished      "1948"^^xsd:gYear;
+        schema:director           wd:Q1239181;
+        schema:duration           "PT1H25M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Every Girl Should Be Married"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q457229  rdf:type  schema:Person .
+
+wd:Q1054574  rdf:type  schema:DefinedTerm .
+
+wd:Q253384  rdf:type  schema:Person .
+
+wd:Q229338  rdf:type  schema:Person .
+
+wd:Q710538  rdf:type  schema:Person .
+
+:10     rdf:type                  schema:Movie;
+        schema:actor              wd:Q861426 , wd:Q3442320 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.3"^^xsd:decimal ];
+        schema:datePublished      "1933"^^xsd:gYear;
+        schema:director           wd:Q2173097 , wd:Q3142266 , wd:Q1971705;
+        schema:duration           "PT1H16M"^^xsd:duration;
+        schema:genre              wd:Q157394;
+        schema:name               "Alice in Wonderland"@en;
+        schema:productionCompany  wd:Q159846 .
+
+wd:Q43247  rdf:type  schema:Person .
+
+wd:Q312098  rdf:type  schema:Person .
+
+:40     rdf:type                  schema:Movie;
+        schema:actor              wd:Q95076 , wd:Q83410 , wd:Q527735;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.2"^^xsd:decimal ];
+        schema:datePublished      "1941"^^xsd:gYear;
+        schema:director           wd:Q7374;
+        schema:duration           "PT1H39M"^^xsd:duration;
+        schema:genre              wd:Q2484376;
+        schema:name               "Suspicion"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q1292160  rdf:type  schema:Person .
+
+wd:Q3500844  rdf:type  schema:Person .
+
+wd:Q1997730  rdf:type  schema:Person .
+
+:70     rdf:type                  schema:Movie;
+        schema:actor              wd:Q202172 , wd:Q83410 , wd:Q42786;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.8"^^xsd:decimal ];
+        schema:datePublished      "1963"^^xsd:gYear;
+        schema:director           wd:Q48765;
+        schema:duration           "PT1H53M"^^xsd:duration;
+        schema:genre              wd:Q2484376;
+        schema:name               "Charade"@en;
+        schema:productionCompany  wd:Q168383 .
+
+wd:Q229507  rdf:type  schema:Person .
+
+wd:Q911766  rdf:type  schema:Person .
+
+wd:Q181917  rdf:type  schema:Person .
+
+wd:Q734944  rdf:type  schema:Person .
+
+wd:Q276130  rdf:type  schema:Person .
+
+:39     rdf:type                  schema:Movie;
+        schema:actor              wd:Q230099 , wd:Q466440 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.1"^^xsd:decimal ];
+        schema:datePublished      "1941"^^xsd:gYear;
+        schema:director           wd:Q51490;
+        schema:duration           "PT1H59M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "Penny Serenade"@en;
+        schema:productionCompany  wd:Q186941 .
+
+wd:Q228928  rdf:type  schema:Person .
+
+wd:Q15429869  rdf:type  schema:Person .
+
+wd:Q102462  rdf:type  schema:Person .
+
+wd:Q343037  rdf:type  schema:Person .
+
+:69     rdf:type                  schema:Movie;
+        schema:actor              wd:Q104372 , wd:Q83410 , wd:Q344758;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.6"^^xsd:decimal ];
+        schema:datePublished      "1962"^^xsd:gYear;
+        schema:director           wd:Q270038;
+        schema:duration           "PT1H39M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "That Touch of Mink"@en;
+        schema:productionCompany  wd:Q168383 .
+
+wd:Q186941  rdf:type  schema:Organization .
+
+:6      rdf:type                  schema:Movie;
+        schema:actor              wd:Q295984 , wd:Q83410 , wd:Q267836;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.5"^^xsd:decimal ];
+        schema:datePublished      "1932"^^xsd:gYear;
+        schema:director           wd:Q1361631;
+        schema:duration           "PT1H13M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "Hot Saturday"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q350640  rdf:type  schema:Person .
+
+wd:Q157443  rdf:type  schema:DefinedTerm .
+
+wd:Q3104394  rdf:type  schema:Person .
+
+wd:Q319221  rdf:type  schema:DefinedTerm .
+
+:27     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q7174193 , wd:Q444492;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.3"^^xsd:decimal ];
+        schema:datePublished      "1936"^^xsd:gYear;
+        schema:director           wd:Q78298;
+        schema:duration           "PT1H1M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "The Amazing Adventure"@en;
+        schema:productionCompany  wd:Q219400 .
+
+wd:Q329577  rdf:type  schema:Person .
+
+wd:Q230099  rdf:type  schema:Person .
+
+wd:Q966972  rdf:type  schema:Person .
+
+:57     rdf:type                  schema:Movie;
+        schema:actor              wd:Q442549 , wd:Q456357 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.2"^^xsd:decimal ];
+        schema:datePublished      "1952"^^xsd:gYear;
+        schema:director           wd:Q95111;
+        schema:duration           "PT1H38M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Room for One More"@en;
+        schema:productionCompany  wd:Q126399 .
+
+wd:Q48765  rdf:type  schema:Person .
+
+:15     rdf:type                  schema:Movie;
+        schema:actor              wd:Q1273515 , wd:Q83410 , wd:Q531224;
+        schema:aggregateRating    [ schema:ratingValue
+                          "5.9"^^xsd:decimal ];
+        schema:datePublished      "1934"^^xsd:gYear;
+        schema:director           wd:Q17421952;
+        schema:duration           "PT1H18M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Kiss and Make-Up"@en;
+        schema:productionCompany  wd:Q159846 .
+
+wd:Q78298  rdf:type  schema:Person .
+
+:45     rdf:type                  schema:Movie;
+        schema:actor              wd:Q271327 , wd:Q83410 , wd:Q726398;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.9"^^xsd:decimal ];
+        schema:datePublished      "1944"^^xsd:gYear;
+        schema:director           wd:Q1968780;
+        schema:duration           "PT1H29M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Once Upon a Time"@en;
+        schema:productionCompany  wd:Q186941 .
+
+wd:Q231595  rdf:type  schema:Person .
+
+wd:Q3925  rdf:type  schema:Person .
+
+wd:Q3372567  rdf:type  schema:Person .
+
+wd:Q73136  rdf:type  schema:Person .
+
+wd:Q332530  rdf:type  schema:Person .
+
+wd:Q466440  rdf:type  schema:Person .
+
+wd:Q157394  rdf:type  schema:DefinedTerm .
+
+:33     rdf:type                  schema:Movie;
+        schema:actor              wd:Q207739 , wd:Q83410 , wd:Q268110;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7"^^xsd:decimal ];
+        schema:datePublished      "1939"^^xsd:gYear;
+        schema:director           wd:Q1348309;
+        schema:duration           "PT1H34M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "In Name Only"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q618330  rdf:type  schema:Person .
+
+:63     rdf:type                  schema:Movie;
+        schema:actor              wd:Q43252 , wd:Q83410 , wd:Q40912;
+        schema:aggregateRating    [ schema:ratingValue
+                          "5.7"^^xsd:decimal ];
+        schema:datePublished      "1957"^^xsd:gYear;
+        schema:director           wd:Q73136;
+        schema:duration           "PT2H12M"^^xsd:duration;
+        schema:genre              wd:Q369747;
+        schema:name               "The Pride and the Passion"@en;
+        schema:productionCompany  wd:Q219400 .
+
+:0      rdf:type                  schema:Movie;
+        schema:actor              wd:Q1273317 , wd:Q4612 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.1"^^xsd:decimal ];
+        schema:datePublished      "1932"^^xsd:gYear;
+        schema:director           wd:Q78719;
+        schema:duration           "PT1H33M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "Blonde Venus"@en;
+        schema:productionCompany  wd:Q159846 .
+
+wd:Q253757  rdf:type  schema:Person .
+
+wd:Q117479  rdf:type  schema:Person .
+
+wd:Q182580  rdf:type  schema:Person .
+
+wd:Q72756  rdf:type  schema:Person .
+
+wd:Q1402886  rdf:type  schema:Person .
+
+:21     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q350640 , wd:Q128944;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.5"^^xsd:decimal ];
+        schema:datePublished      "1936"^^xsd:gYear;
+        schema:director           wd:Q72756;
+        schema:duration           "PT1H17M"^^xsd:duration;
+        schema:genre              wd:Q959790;
+        schema:name               "Big Brown Eyes"@en;
+        schema:productionCompany  wd:Q267282 .
+
+:51     rdf:type                  schema:Movie;
+        schema:actor              wd:Q182580 , wd:Q105941 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.2"^^xsd:decimal ];
+        schema:datePublished      "1947"^^xsd:gYear;
+        schema:director           wd:Q3154622;
+        schema:duration           "PT1H35M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "The Bachelor and the Bobby-Soxer"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q1239181  rdf:type  schema:Person .
+
+wd:Q230147  rdf:type  schema:Person .
+
+wd:Q1052329  rdf:type  schema:Person .
+
+wd:Q447847  rdf:type  schema:Person .
+
+wd:Q527735  rdf:type  schema:Person .
+
+wd:Q5421289  rdf:type  schema:Person .
+
+wd:Q83410  rdf:type  schema:Person .
+
+wd:Q1968780  rdf:type  schema:Person .
+
+wd:Q531224  rdf:type  schema:Person .
+
+:38     rdf:type                  schema:Movie;
+        schema:actor              wd:Q102462 , wd:Q83410 , wd:Q56016;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.8"^^xsd:decimal ];
+        schema:datePublished      "1940"^^xsd:gYear;
+        schema:director           wd:Q56014;
+        schema:duration           "PT1H52M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "The Philadelphia Story"@en;
+        schema:productionCompany  wd:Q179200 .
+
+wd:Q105941  rdf:type  schema:Person .
+
+wd:Q224742  rdf:type  schema:Person .
+
+:68     rdf:type                  schema:Movie;
+        schema:actor              wd:Q344758 , wd:Q83410 , wd:Q104146;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.4"^^xsd:decimal ];
+        schema:datePublished      "1960"^^xsd:gYear;
+        schema:director           wd:Q48765;
+        schema:duration           "PT1H44M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "The Grass Is Greener"@en;
+        schema:productionCompany  wd:Q179200 .
+
+:5      rdf:type                  schema:Movie;
+        schema:actor              wd:Q207739 , wd:Q983420 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6"^^xsd:decimal ];
+        schema:datePublished      "1932"^^xsd:gYear;
+        schema:director           wd:Q3017582 , wd:Q454464 , wd:Q1968780;
+        schema:duration           "PT1H10M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "Sinners in the Sun"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q1352043  rdf:type  schema:Person .
+
+wd:Q181819  rdf:type  schema:Person .
+
+:26     rdf:type                  schema:Movie;
+        schema:actor              wd:Q265358 , wd:Q1371212 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.2"^^xsd:decimal ];
+        schema:datePublished      "1937"^^xsd:gYear;
+        schema:director           wd:Q1971705;
+        schema:duration           "PT1H37M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Topper"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q4616  rdf:type  schema:Person .
+
+wd:Q3372211  rdf:type  schema:Person .
+
+wd:Q95111  rdf:type  schema:Person .
+
+:56     rdf:type                  schema:Movie;
+        schema:actor              wd:Q238032 , wd:Q1391088 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.3"^^xsd:decimal ];
+        schema:datePublished      "1951"^^xsd:gYear;
+        schema:director           wd:Q51583;
+        schema:duration           "PT1H50M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "People Will Talk"@en;
+        schema:productionCompany  wd:Q434841 .
+
+wd:Q43252  rdf:type  schema:Person .
+
+wd:Q645928  rdf:type  schema:DefinedTerm .
+
+wd:Q56016  rdf:type  schema:Person .
+
+:14     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q1292160 , wd:Q224742;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.3"^^xsd:decimal ];
+        schema:datePublished      "1934"^^xsd:gYear;
+        schema:director           wd:Q125892;
+        schema:duration           "PT1H2M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Ladies Should Listen"@en;
+        schema:productionCompany  wd:Q159846 .
+
+:44     rdf:type                  schema:Movie;
+        schema:actor              wd:Q466063 , wd:Q83410 , wd:Q710538;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.1"^^xsd:decimal ];
+        schema:datePublished      "1943"^^xsd:gYear;
+        schema:director           wd:Q937589;
+        schema:duration           "PT1H40M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "Mr. Lucky"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q434342  rdf:type  schema:Person .
+
+wd:Q2173097  rdf:type  schema:Person .
+
+wd:Q168383  rdf:type  schema:Organization .
+
+wd:Q270038  rdf:type  schema:Person .
+
+wd:Q247662  rdf:type  schema:Person .
+
+wd:Q179200  rdf:type  schema:Organization .
+
+wd:Q1391088  rdf:type  schema:Person .
+
+wd:Q104372  rdf:type  schema:Person .
+
+:32     rdf:type                  schema:Movie;
+        schema:actor              wd:Q329577 , wd:Q95076 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.2"^^xsd:decimal ];
+        schema:datePublished      "1939"^^xsd:gYear;
+        schema:director           wd:Q51490;
+        schema:duration           "PT1H57M"^^xsd:duration;
+        schema:genre              wd:Q319221;
+        schema:name               "Gunga Din"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q78888  rdf:type  schema:Person .
+
+wd:Q522803  rdf:type  schema:Person .
+
+wd:Q42745  rdf:type  schema:Person .
+
+:62     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q104146 , wd:Q1379341;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.4"^^xsd:decimal ];
+        schema:datePublished      "1957"^^xsd:gYear;
+        schema:director           wd:Q332530;
+        schema:duration           "PT1H55M"^^xsd:duration;
+        schema:genre              wd:Q1054574;
+        schema:name               "An Affair to Remember"@en;
+        schema:productionCompany  wd:Q434841 .
+
+wd:Q6133997  rdf:type  schema:Person .
+
+:20     rdf:type                  schema:Movie;
+        schema:actor              wd:Q78888 , wd:Q3269588 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "5.4"^^xsd:decimal ];
+        schema:datePublished      "1934"^^xsd:gYear;
+        schema:director           wd:Q1332362;
+        schema:duration           "PT1H23M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Enter Madame!"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q236394  rdf:type  schema:Person .
+
+:50     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q253384 , wd:Q181917;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.6"^^xsd:decimal ];
+        schema:datePublished      "1947"^^xsd:gYear;
+        schema:director           wd:Q61859;
+        schema:duration           "PT1H49M"^^xsd:duration;
+        schema:genre              wd:Q157394;
+        schema:name               "The Bishop’s Wife"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q389234  rdf:type  schema:Person .
+
+wd:Q78719  rdf:type  schema:Person .
+
+wd:Q126399  rdf:type  schema:Organization .
+
+:19     rdf:type                  schema:Movie;
+        schema:actor              wd:Q3104394 , wd:Q83410 , wd:Q318734;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6"^^xsd:decimal ];
+        schema:datePublished      "1935"^^xsd:gYear;
+        schema:director           wd:Q769200 , wd:Q1402886;
+        schema:duration           "PT1H16M"^^xsd:duration;
+        schema:genre              wd:Q319221;
+        schema:name               "The Last Outpost"@en;
+        schema:productionCompany  wd:Q159846 .
+
+wd:Q162389  rdf:type  schema:Person .
+
+wd:Q983420  rdf:type  schema:Person .
+
+:49     rdf:type                  schema:Movie;
+        schema:actor              wd:Q242482 , wd:Q83410 , wd:Q1393843;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.1"^^xsd:decimal ];
+        schema:datePublished      "1946"^^xsd:gYear;
+        schema:director           wd:Q51491;
+        schema:duration           "PT2H8M"^^xsd:duration;
+        schema:genre              wd:Q645928;
+        schema:name               "Night and Day"@en;
+        schema:productionCompany  wd:Q126399 .
+
+wd:Q51583  rdf:type  schema:Person .
+
+:37     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q527735 , wd:Q236394;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6"^^xsd:decimal ];
+        schema:datePublished      "1940"^^xsd:gYear;
+        schema:director           wd:Q28941;
+        schema:duration           "PT1H56M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "The Howards of Virginia"@en;
+        schema:productionCompany  wd:Q186941 .
+
+wd:Q726398  rdf:type  schema:Person .
+
+wd:Q312084  rdf:type  schema:Person .
+
+:67     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q209186 , wd:Q228928;
+        schema:aggregateRating    [ schema:ratingValue
+                          "8.3"^^xsd:decimal ];
+        schema:datePublished      "1959"^^xsd:gYear;
+        schema:director           wd:Q7374;
+        schema:duration           "PT2H16M"^^xsd:duration;
+        schema:genre              wd:Q2484376;
+        schema:name               "North by Northwest"@en;
+        schema:productionCompany  wd:Q179200 .
+
+wd:Q959790  rdf:type  schema:DefinedTerm .
+
+wd:Q271877  rdf:type  schema:Person .
+
+:4      rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q1371212 , wd:Q271146;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.6"^^xsd:decimal ];
+        schema:datePublished      "1932"^^xsd:gYear;
+        schema:director           wd:Q125892;
+        schema:duration           "PT1H20M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "This is the Night"@en;
+        schema:productionCompany  wd:Q159846 .
+
+wd:Q6116454  rdf:type  schema:Person .
+
+wd:Q953753  rdf:type  schema:Person .
+
+:25     rdf:type                  schema:Movie;
+        schema:actor              wd:Q247662 , wd:Q83410 , wd:Q253757;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.2"^^xsd:decimal ];
+        schema:datePublished      "1937"^^xsd:gYear;
+        schema:director           wd:Q240370 , wd:Q389234;
+        schema:duration           "PT1H50M"^^xsd:duration;
+        schema:genre              wd:Q1054574;
+        schema:name               "When You’re in Love"@en;
+        schema:productionCompany  wd:Q186941 .
+
+:55     rdf:type                  schema:Movie;
+        schema:actor              wd:Q3372567 , wd:Q83410 , wd:Q312098;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.7"^^xsd:decimal ];
+        schema:datePublished      "1950"^^xsd:gYear;
+        schema:director           wd:Q434342;
+        schema:duration           "PT1H35M"^^xsd:duration;
+        schema:genre              wd:Q2484376;
+        schema:name               "Crisis"@en;
+        schema:productionCompany  wd:Q179200 .
+
+wd:Q1379341  rdf:type  schema:Person .
+
+wd:Q3442320  rdf:type  schema:Person .
+
+:13     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q522803 , wd:Q231595;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.7"^^xsd:decimal ];
+        schema:datePublished      "1934"^^xsd:gYear;
+        schema:director           wd:Q1596657;
+        schema:duration           "PT1H14M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Thirty Day Princess"@en;
+        schema:productionCompany  wd:Q159846 .
+
+wd:Q28941  rdf:type  schema:Person .
+
+wd:Q367053  rdf:type  schema:Person .
+
+wd:Q3157239  rdf:type  schema:Person .
+
+wd:Q242482  rdf:type  schema:Person .
+
+:43     rdf:type                  schema:Movie;
+        schema:actor              wd:Q1971717 , wd:Q367053 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.1"^^xsd:decimal ];
+        schema:datePublished      "1943"^^xsd:gYear;
+        schema:director           wd:Q95119;
+        schema:duration           "PT2H15M"^^xsd:duration;
+        schema:genre              wd:Q369747;
+        schema:name               "Destination Tokyo"@en;
+        schema:productionCompany  wd:Q126399 .
+
+wd:Q17421952  rdf:type  schema:Person .
+
+wd:Q235103  rdf:type  schema:Person .
+
+wd:Q42786  rdf:type  schema:Person .
+
+wd:Q51492  rdf:type  schema:Person .
+
+wd:Q1656814  rdf:type  schema:Person .
+
+wd:Q219400  rdf:type  schema:Organization .
+
+wd:Q1232794  rdf:type  schema:Person .
+
+wd:Q130232  rdf:type  schema:DefinedTerm .
+
+wd:Q113328  rdf:type  schema:Person .
+
+wd:Q934722  rdf:type  schema:Person .
+
+:31     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q229338 , wd:Q42745;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.6"^^xsd:decimal ];
+        schema:datePublished      "1939"^^xsd:gYear;
+        schema:director           wd:Q51581;
+        schema:duration           "PT2H1M"^^xsd:duration;
+        schema:genre              wd:Q319221;
+        schema:name               "Only Angels Have Wings"@en;
+        schema:productionCompany  wd:Q186941 .
+
+:9      rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q3157239 , wd:Q449877;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6"^^xsd:decimal ];
+        schema:datePublished      "1933"^^xsd:gYear;
+        schema:director           wd:Q1402886;
+        schema:duration           "PT1H12M"^^xsd:duration;
+        schema:genre              wd:Q959790;
+        schema:name               "Gambling Ship"@en;
+        schema:productionCompany  wd:Q159846 .
+
+wd:Q128944  rdf:type  schema:Person .
+
+:61     rdf:type                  schema:Movie;
+        schema:actor              wd:Q1232794 , wd:Q83410 , wd:Q229507;
+        schema:aggregateRating    [ schema:ratingValue
+                          "5.6"^^xsd:decimal ];
+        schema:datePublished      "1957"^^xsd:gYear;
+        schema:director           wd:Q48765;
+        schema:duration           "PT1H45M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Kiss Them for Me"@en;
+        schema:productionCompany  wd:Q159846 .
+
+wd:Q56093  rdf:type  schema:Person .
+
+wd:Q290666  rdf:type  schema:Person .
+
+wd:Q233848  rdf:type  schema:Person .
+
+wd:Q105118  rdf:type  schema:Person .
+
+wd:Q93957  rdf:type  schema:Person .
+
+:18     rdf:type                  schema:Movie;
+        schema:actor              wd:Q76362992 , wd:Q83410 , wd:Q911766;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.2"^^xsd:decimal ];
+        schema:datePublished      "1935"^^xsd:gYear;
+        schema:director           wd:Q56014;
+        schema:duration           "PT1H35M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Sylvia Scarlett"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q364135  rdf:type  schema:Person .
+
+wd:Q466063  rdf:type  schema:Person .
+
+:48     rdf:type                  schema:Movie;
+        schema:actor              wd:Q318734 , wd:Q83410 , wd:Q43247;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.9"^^xsd:decimal ];
+        schema:datePublished      "1946"^^xsd:gYear;
+        schema:director           wd:Q7374;
+        schema:duration           "PT1H42M"^^xsd:duration;
+        schema:genre              wd:Q2484376;
+        schema:name               "Notorious"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q1273317  rdf:type  schema:Person .
+
+wd:Q1559143  rdf:type  schema:Person .
+
+wd:Q454464  rdf:type  schema:Person .
+
+wd:Q3154622  rdf:type  schema:Person .
+
+wd:Q449877  rdf:type  schema:Person .
+
+wd:Q1596657  rdf:type  schema:Person .
+
+wd:Q13575399  rdf:type  schema:Person .
+
+wd:Q159846  rdf:type  schema:Organization .
+
+wd:Q125892  rdf:type  schema:Person .
+
+wd:Q268110  rdf:type  schema:Person .
+
+:36     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q230099 , wd:Q295984;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.2"^^xsd:decimal ];
+        schema:datePublished      "1940"^^xsd:gYear;
+        schema:director           wd:Q1377923;
+        schema:duration           "PT1H28M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "My Favorite Wife"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q233854  rdf:type  schema:Person .
+
+wd:Q1377923  rdf:type  schema:Person .
+
+:66     rdf:type                  schema:Movie;
+        schema:actor              wd:Q3179611 , wd:Q162389 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.2"^^xsd:decimal ];
+        schema:datePublished      "1959"^^xsd:gYear;
+        schema:director           wd:Q56093;
+        schema:duration           "PT2H4M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Operation Petticoat"@en;
+        schema:productionCompany  wd:Q168383 .
+
+wd:Q40912  rdf:type  schema:Person .
+
+:3      rdf:type                  schema:Movie;
+        schema:actor              wd:Q934722 , wd:Q83410 , wd:Q231595;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6"^^xsd:decimal ];
+        schema:datePublished      "1932"^^xsd:gYear;
+        schema:director           wd:Q1596657;
+        schema:duration           "PT1H26M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "Madame Butterfly"@en;
+        schema:productionCompany  wd:Q159846 .
+
+wd:Q434841  rdf:type  schema:Organization .
+
+wd:Q3179611  rdf:type  schema:Person .
+
+wd:Q271327  rdf:type  schema:Person .
+
+wd:Q271146  rdf:type  schema:Person .
+
+wd:Q456357  rdf:type  schema:Person .
+
+wd:Q2166695  rdf:type  schema:Person .
+
+:24     rdf:type                  schema:Movie;
+        schema:actor              wd:Q230099 , wd:Q364135 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.6"^^xsd:decimal ];
+        schema:datePublished      "1937"^^xsd:gYear;
+        schema:director           wd:Q332530;
+        schema:duration           "PT1H30M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "The Awful Truth"@en;
+        schema:productionCompany  wd:Q186941 .
+
+wd:Q1371212  rdf:type  schema:Person .
+
+:54     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q5421289 , wd:Q233848;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7"^^xsd:decimal ];
+        schema:datePublished      "1949"^^xsd:gYear;
+        schema:director           wd:Q51581;
+        schema:duration           "PT1H45M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "I Was a Male War Bride"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q207739  rdf:type  schema:Person .
+
+wd:Q56014  rdf:type  schema:Person .
+
+wd:Q374455  rdf:type  schema:Person .
+
+wd:Q618616  rdf:type  schema:Person .
+
+:12     rdf:type                  schema:Movie;
+        schema:actor              wd:Q545846 , wd:Q181819 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7"^^xsd:decimal ];
+        schema:datePublished      "1933"^^xsd:gYear;
+        schema:director           wd:Q276130 , wd:Q3500844;
+        schema:duration           "PT1H13M"^^xsd:duration;
+        schema:genre              wd:Q369747;
+        schema:name               "The Eagle and the Hawk"@en;
+        schema:productionCompany  wd:Q159846 .
+
+wd:Q1393843  rdf:type  schema:Person .
+
+:42     rdf:type                  schema:Movie;
+        schema:actor              wd:Q181786 , wd:Q83410 , wd:Q229338;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.5"^^xsd:decimal ];
+        schema:datePublished      "1942"^^xsd:gYear;
+        schema:director           wd:Q51490;
+        schema:duration           "PT1H58M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "The Talk of the Town"@en;
+        schema:productionCompany  wd:Q186941 .
+
+:72     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q231385 , wd:Q1656814;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.6"^^xsd:decimal ];
+        schema:datePublished      "1966"^^xsd:gYear;
+        schema:director           wd:Q953753;
+        schema:duration           "PT1H54M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Walk, Don’t Run"@en;
+        schema:productionCompany  wd:Q186941 .
+
+wd:Q209186  rdf:type  schema:Person .
+
+wd:Q202878  rdf:type  schema:Person .
+
+wd:Q51491  rdf:type  schema:Person .
+
+:30     rdf:type                  schema:Movie;
+        schema:actor              wd:Q76362992 , wd:Q934722 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.8"^^xsd:decimal ];
+        schema:datePublished      "1938"^^xsd:gYear;
+        schema:director           wd:Q51581;
+        schema:duration           "PT1H42M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Bringing Up Baby"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q141673  rdf:type  schema:Person .
+
+:8      rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q267836 , wd:Q1997730;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.2"^^xsd:decimal ];
+        schema:datePublished      "1933"^^xsd:gYear;
+        schema:director           wd:Q3372211;
+        schema:duration           "PT1H13M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "The Woman Accused"@en;
+        schema:productionCompany  wd:Q267282 .
+
+:60     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q3925 , wd:Q541270;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.4"^^xsd:decimal ];
+        schema:datePublished      "1955"^^xsd:gYear;
+        schema:director           wd:Q7374;
+        schema:duration           "PT1H46M"^^xsd:duration;
+        schema:genre              wd:Q2484376;
+        schema:name               "To Catch a Thief"@en;
+        schema:productionCompany  wd:Q159846 .
+
+wd:Q861426  rdf:type  schema:Person .
+
+wd:Q344758  rdf:type  schema:Person .
+
+wd:Q1971717  rdf:type  schema:Person .
+
+:29     rdf:type                  schema:Movie;
+        schema:actor              wd:Q56016 , wd:Q15429869 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.7"^^xsd:decimal ];
+        schema:datePublished      "1938"^^xsd:gYear;
+        schema:director           wd:Q56014;
+        schema:duration           "PT1H35M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Holiday"@en;
+        schema:productionCompany  wd:Q186941 .
+
+wd:Q61859  rdf:type  schema:Person .
+
+wd:Q240370  rdf:type  schema:Person .
+
+:59     rdf:type                  schema:Movie;
+        schema:actor              wd:Q350640 , wd:Q104146 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "5.9"^^xsd:decimal ];
+        schema:datePublished      "1953"^^xsd:gYear;
+        schema:director           wd:Q105118;
+        schema:duration           "PT1H40M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Dream Wife"@en;
+        schema:productionCompany  wd:Q179200 .
+
+wd:Q3142266  rdf:type  schema:Person .
+
+wd:Q181786  rdf:type  schema:Person .
+
+wd:Q95089  rdf:type  schema:Person .
+
+wd:Q1971705  rdf:type  schema:Person .
+
+wd:Q104146  rdf:type  schema:Person .
+
+:17     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q105941 , wd:Q2166695;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.4"^^xsd:decimal ];
+        schema:datePublished      "1935"^^xsd:gYear;
+        schema:director           wd:Q6133997;
+        schema:duration           "PT1H15M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "Wings in the Dark"@en;
+        schema:productionCompany  wd:Q159846 .
+
+wd:Q369747  rdf:type  schema:DefinedTerm .
+
+:47     rdf:type                  schema:Movie;
+        schema:actor              wd:Q230147 , wd:Q83410 , wd:Q290666;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.4"^^xsd:decimal ];
+        schema:datePublished      "1944"^^xsd:gYear;
+        schema:director           wd:Q734944;
+        schema:duration           "PT1H53M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "None But the Lonely Heart"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q2058654  rdf:type  schema:Person .
+
+wd:Q295984  rdf:type  schema:Person .
+
+wd:Q51581  rdf:type  schema:Person .
+
+:35     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q233854 , wd:Q364135;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.8"^^xsd:decimal ];
+        schema:datePublished      "1940"^^xsd:gYear;
+        schema:director           wd:Q51581;
+        schema:duration           "PT1H32M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "His Girl Friday"@en;
+        schema:productionCompany  wd:Q186941 .
+
+wd:Q1361039  rdf:type  schema:Person .
+
+wd:Q265358  rdf:type  schema:Person .
+
+wd:Q541270  rdf:type  schema:Person .
+
+wd:Q1273515  rdf:type  schema:Person .
+
+wd:Q1348309  rdf:type  schema:Person .
+
+:65     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q271877 , wd:Q43252;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.6"^^xsd:decimal ];
+        schema:datePublished      "1958"^^xsd:gYear;
+        schema:director           wd:Q117479;
+        schema:duration           "PT1H50M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Houseboat"@en;
+        schema:productionCompany  wd:Q159846 .
+
+wd:Q1361631  rdf:type  schema:Person .
+
+:2      rdf:type                  schema:Movie;
+        schema:actor              wd:Q231595 , wd:Q181819 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.9"^^xsd:decimal ];
+        schema:datePublished      "1932"^^xsd:gYear;
+        schema:director           wd:Q447847;
+        schema:duration           "PT1H23M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "Merrily We Go to Hell"@en;
+        schema:productionCompany  wd:Q159846 .
+
+wd:Q769200  rdf:type  schema:Person .
+
+wd:Q238032  rdf:type  schema:Person .
+
+wd:Q202172  rdf:type  schema:Person .
+
+wd:Q444492  rdf:type  schema:Person .
+
+wd:Q95119  rdf:type  schema:Person .
+
+wd:Q318734  rdf:type  schema:Person .
+
+:23     rdf:type                  schema:Movie;
+        schema:actor              wd:Q105719 , wd:Q457229 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.4"^^xsd:decimal ];
+        schema:datePublished      "1936"^^xsd:gYear;
+        schema:director           wd:Q1352043;
+        schema:duration           "PT1H33M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "Suzy"@en;
+        schema:productionCompany  wd:Q159846 .
+
+wd:Q3269588  rdf:type  schema:Person .
+
+:53     rdf:type                  schema:Movie;
+        schema:actor              wd:Q312084 , wd:Q105941 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.2"^^xsd:decimal ];
+        schema:datePublished      "1948"^^xsd:gYear;
+        schema:director           wd:Q937589;
+        schema:duration           "PT1H34M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Mr. Blandings Builds His Dream House"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q230023  rdf:type  schema:Person .
+
+wd:Q267282  rdf:type  schema:Organization .
+
+:11     rdf:type                  schema:Movie;
+        schema:actor              wd:Q1361039 , wd:Q83410 , wd:Q202878;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.9"^^xsd:decimal ];
+        schema:datePublished      "1933"^^xsd:gYear;
+        schema:director           wd:Q1064903;
+        schema:duration           "PT1H27M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "I’m No Angel"@en;
+        schema:productionCompany  wd:Q159846 .
+
+:41     rdf:type                  schema:Movie;
+        schema:actor              wd:Q113328 , wd:Q83410 , wd:Q95089;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.4"^^xsd:decimal ];
+        schema:datePublished      "1942"^^xsd:gYear;
+        schema:director           wd:Q332530;
+        schema:duration           "PT1H57M"^^xsd:duration;
+        schema:genre              wd:Q1054574;
+        schema:name               "Once Upon a Honeymoon"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q1332362  rdf:type  schema:Person .
+
+:71     rdf:type                  schema:Movie;
+        schema:actor              wd:Q230023 , wd:Q83410 , wd:Q343037;
+        schema:aggregateRating    [ schema:ratingValue
+                          "7.3"^^xsd:decimal ];
+        schema:datePublished      "1964"^^xsd:gYear;
+        schema:director           wd:Q1559143;
+        schema:duration           "PT1H58M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Father Goose"@en;
+        schema:productionCompany  wd:Q168383 .
+
+wd:Q51490  rdf:type  schema:Person .
+
+:7      rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q966972 , wd:Q202878;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.3"^^xsd:decimal ];
+        schema:datePublished      "1933"^^xsd:gYear;
+        schema:director           wd:Q2058654;
+        schema:duration           "PT1H6M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "She Done Him Wrong"@en;
+        schema:productionCompany  wd:Q159846 .
+
+:28     rdf:type                  schema:Movie;
+        schema:actor              wd:Q522803 , wd:Q235103 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.3"^^xsd:decimal ];
+        schema:datePublished      "1937"^^xsd:gYear;
+        schema:director           wd:Q618330 , wd:Q1968780;
+        schema:duration           "PT1H49M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "The Toast of New York"@en;
+        schema:productionCompany  wd:Q267282 .
+
+wd:Q442549  rdf:type  schema:Person .
+
+:58     rdf:type                  schema:Movie;
+        schema:actor              wd:Q4616 , wd:Q95089 , wd:Q83410;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.9"^^xsd:decimal ];
+        schema:datePublished      "1952"^^xsd:gYear;
+        schema:director           wd:Q51581;
+        schema:duration           "PT1H37M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Monkey Business"@en;
+        schema:productionCompany  wd:Q434841 .
+
+wd:Q105719  rdf:type  schema:Person .
+
+wd:Q7374  rdf:type  schema:Person .
+
+:16     rdf:type                  schema:Movie;
+        schema:actor              wd:Q83410 , wd:Q253384 , wd:Q6116454;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.1"^^xsd:decimal ];
+        schema:datePublished      "1934"^^xsd:gYear;
+        schema:director           wd:Q141673 , wd:Q2058654;
+        schema:duration           "PT1H2M"^^xsd:duration;
+        schema:genre              wd:Q130232;
+        schema:name               "Born to Be Bad"@en;
+        schema:productionCompany  wd:Q186941 .
+
+wd:Q1064903  rdf:type  schema:Person .
+
+:46     rdf:type                  schema:Movie;
+        schema:actor              wd:Q13575399 , wd:Q83410 , wd:Q531461;
+        schema:aggregateRating    [ schema:ratingValue
+                          "6.4"^^xsd:decimal ];
+        schema:datePublished      "1944"^^xsd:gYear;
+        schema:director           wd:Q51492;
+        schema:duration           "PT1H58M"^^xsd:duration;
+        schema:genre              wd:Q157443;
+        schema:name               "Arsenic and Old Lace"@en;
+        schema:productionCompany  wd:Q126399 .
+
+wd:Q231385  rdf:type  schema:Person .
+
+wd:Q76362992  rdf:type  schema:Person .
