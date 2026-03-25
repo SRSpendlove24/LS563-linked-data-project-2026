@@ -1,5 +1,5 @@
 # LS563-linked-data-project-2026
-**What this is:** This is my linked data project for LS563. It contains data about the actor Cary Grant.
+**About:** This is my linked data project for LS563. It contains data about the actor Cary Grant.
 
 **Description:** This dataset contains data about the 73 films that the British-American actor Cary Grant appeared in over the course of his very successful career. There is data about the directors, genres, studios, stars, creation dates, names, length, and IMDB (International Movie Database) rating of each film. 
 
